@@ -1,0 +1,106 @@
+/*Common*/
+
+@font-face {
+  font-family: "semplicita.medium";
+  src: url("../fonts/semplicita.medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "BaskervaldADFStd";
+  src: url("../fonts/BaskervaldADFStd.otf") format("opentype");
+}
+
+body {
+  background-color: var(--sqe_body_color);
+  min-height: 100vh;
+  min-width: 200px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+nav,
+footer {
+  background-color: var(--sqe_main_color);
+  color: #c9b99f;
+  font-family: "semplicita.medium", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Navigation*/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/*Logo*/
+#logo {
+  max-width: 50px;
+}
+
+.navigation_logo_picture {
+  margin: 0;
+}
+
+/*Buttons*/
+
+/*Hamburger menu*/
+
+#hamburger_menu {
+  display: none;
+}
+
+#hamburger_menu_label {
+  display: block;
+}
+
+#hamburger_menu:checked ~ .navigation_links {
+  display: flex;
+  flex-direction: column;
+}
+
+.fa-bars {
+  font-size: 1em;
+}
+
+/*Navigation links*/
+
+.navigation_links {
+  display: none;
+}
+
+nav ul {
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+}
+
+.navigation_links a {
+  color: #c9b99f;
+  font-size: 1.8em;
+  padding: 10px;
+}
+
+.current_page {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*Login icon/profile picture*/
+
+.fa-user-circle {
+  font-size: 1em;
+  color: white;
+  padding-left: 0.1em;
+}
+
+#login_icon:visited {
+  color: white;
+}
