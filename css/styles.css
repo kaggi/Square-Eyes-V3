@@ -12,3 +12,13 @@
 
 @import "./footer.css";
 @import "./footer_media.css";
+
+/*Home page*/
+
+@import "./home.css";
+@import "./home_media.css";
+
+/*About page*/
+
+@import "./about.css";
+@import "./about_media.css";

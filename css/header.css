@@ -46,12 +46,13 @@ nav {
 nav ul {
   padding: 0;
 }
+
 nav li {
-  display: inline-block;
+  list-style: none;
 }
 
 .navigation_links a {
-  color: #c9b99f;
+  color: var(--sqe_nav_link_color);
   font-size: 1.8em;
   padding: 10px;
 }
