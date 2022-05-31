@@ -12,6 +12,8 @@
     <title>Home | Square Eyes</title>
 
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/search.css" rel="stylesheet" />
+    <link href="css/search_media.css" rel="stylesheet" />
 
     <script
       src="https://kit.fontawesome.com/b9ea43cd7c.js"
@@ -62,6 +64,170 @@
     <!--Main-->
     <main>
       <h1>Browse our collection</h1>
+      <h2>Browse titles</h2>
+      <div class="browse_collection_links" id="browse_title_links">
+        <a href="#">A</a>
+        <a href="#">B</a>
+        <a href="#">C</a>
+        <a href="#">D</a>
+        <a href="#">E</a>
+        <a href="#">F</a>
+        <a href="#">G</a>
+        <a href="#">H</a>
+        <a href="#">I</a>
+        <a href="#">J</a>
+        <a href="#">K</a>
+        <a href="#">L</a>
+        <a href="#">M</a>
+        <a href="#">N</a>
+        <a href="#">O</a>
+        <a href="#">P</a>
+        <a href="#">Q</a>
+        <a href="#">R</a>
+        <a href="#">S</a>
+        <a href="#">T</a>
+        <a href="#">U</a>
+        <a href="#">V</a>
+        <a href="#">W</a>
+        <a href="#">X</a>
+        <a href="#">Y</a>
+        <a href="#">Z</a>
+      </div>
+      <h2>Browse creators</h2>
+      <div class="browse_collection_links" id="browse_creator_links">
+        <a href="#">A</a>
+        <a href="#">B</a>
+        <a href="#">C</a>
+        <a href="#">D</a>
+        <a href="#">E</a>
+        <a href="#">F</a>
+        <a href="#">G</a>
+        <a href="#">H</a>
+        <a href="#">I</a>
+        <a href="#">J</a>
+        <a href="#">K</a>
+        <a href="#">L</a>
+        <a href="#">M</a>
+        <a href="#">N</a>
+        <a href="#">O</a>
+        <a href="#">P</a>
+        <a href="#">Q</a>
+        <a href="#">R</a>
+        <a href="#">S</a>
+        <a href="#">T</a>
+        <a href="#">U</a>
+        <a href="#">V</a>
+        <a href="#">W</a>
+        <a href="#">X</a>
+        <a href="#">Y</a>
+        <a href="#">Z</a>
+      </div>
+
+      <h2>Search titles or creators</h2>
+
+      <section class="search_form_section">        
+
+        <form action="search_results.html" class="search_form">
+          <div class="search_field_and_button">
+            <div class="search_field">
+              <input
+                type="search"
+                name="search"
+                placeholder=""
+                id="search_input"
+              />
+            </div>
+            <div class="search_button">
+              <a href="#" id="search_button"
+                ><i class="fas fa-search"></i
+              ></a>
+            </div>            
+          </div>
+          <div class="errorMessage" id="searchFieldError">Search field is empty</div>
+
+          <div class="sorting_criterium">
+            <label>Sort by</label>
+            <input type="checkbox" id="oldest" />
+            <label for="oldest">Oldest</label>
+            <input type="checkbox" id="newest" />
+            <label for="newest">Newest</label>
+            <input type="checkbox" id="most_views" />
+            <label for="most_views">Most views</label>
+          </div>
+          
+          
+        </form>
+        <!--End search_form-->
+      </section>
+      <!--End search_form_section-->
+
+      <!--Search results section-->
+      <section class="search_results_section filmlist_container">
+         <!--film item-->
+         <div class="film_item">
+          <div class="film_item_image">
+            <img
+              src="images/film_small.jpg"
+              alt="A frame from film"
+              id="film_frame"
+            />
+          </div>
+          <div class="film_item_links">
+            <a href="film.html" class="list_link" id="film_title"
+              >Title>></a
+            >
+
+            <a href="creator_public.html" id="film_creator"
+              >By: Creator>></a
+            >
+          </div>
+        </div>
+        <!--End film item-->
+         <!--film item-->
+         <div class="film_item">
+          <div class="film_item_image">
+            <img
+              src="images/film_small.jpg"
+              alt="A frame from film"
+              id="film_frame"
+            />
+          </div>
+          <div class="film_item_links">
+            <a href="film.html" class="list_link" id="film_title"
+              >Title>></a
+            >
+
+            <a href="creator_public.html" id="film_creator"
+              >By: Creator>></a
+            >
+          </div>
+        </div>
+        <!--End film item-->
+         <!--film item-->
+         <div class="film_item">
+          <div class="film_item_image">
+            <img
+              src="images/film_small.jpg"
+              alt="A frame from film"
+              id="film_frame"
+            />
+          </div>
+          <div class="film_item_links">
+            <a href="film.html" class="list_link" id="film_title"
+              >Title>></a
+            >
+
+            <a href="creator_public.html" id="film_creator"
+              >By: Creator>></a
+            >
+          </div>
+        </div>
+        <!--End film item-->
+
+      </section> 
+      <!--End search results section-->
+
+
     </main>
     <!--End main-->
 

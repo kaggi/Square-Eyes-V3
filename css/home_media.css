@@ -41,6 +41,7 @@
   .film_item {
     margin-right: 5px;
     margin-left: 5px;
+    margin-bottom: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

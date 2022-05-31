@@ -1,0 +1,15 @@
+@media only screen and (min-device-width: 300px) {
+}
+
+@media only screen and (min-device-width: 600px) {
+}
+
+@media only screen and (min-device-width: 900px) {
+    .sorting_criterium {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-device-width: 1200px) {
+}
