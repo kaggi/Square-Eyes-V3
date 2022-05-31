@@ -1,5 +1,14 @@
 @import "./constant.css";
 
+/*Common*/
+
+@import "./common.css";
+
 /*Header*/
 @import "./header.css";
 @import "./header_media.css";
+
+/*Footer*/
+
+@import "./footer.css";
+@import "./footer_media.css";
