@@ -31,3 +31,8 @@
 /*Create account page*/
 
 @import "./create_account.css";
+@import "./create_account_media.css";
+
+/*Account created page*/
+
+@import "./account_created.css";
