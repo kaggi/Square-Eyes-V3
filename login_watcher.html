@@ -78,28 +78,43 @@
 
         <section class="login_form_section">            
 
-            <form class="login_form">
-              
-              
-              
-                <label for="email" id="email_label">E-mail:</label>               
-                <input type="email" id="email_field" />
-                
-
-              
-                <label for="password" id="password_label">Password:</label>
-                <input type="password" id="password_field" />
-              
-            </form> <!--End login_form-->
-
-            <div class="login_button_section">
-              <div class="login">  
-                <a href="#" class="cta cta_primary" id="login_button">Log In</a> 
-               </div>
-              <p id="join_us">Do not have an account? <a href="create_account.html">Join us>></a></p> 
-            </div>
+          <form class="login_form">
             
-      </section>
+            
+            
+              <label for="email" id="email_label">E-mail:</label>               
+              <input type="email" id="email_field" />
+              <div class="errorMessage" id="emailError">
+                  This is not a valid email
+              </div>
+              
+
+            
+              <label for="password" id="password_label">Password:</label>
+              <input type="password" id="password_field" />
+              <div class="errorMessage" id="passwordError">
+                  Must be at least 9 charachters
+              </div>
+            
+
+              <div class="create_account_button_section">
+                  <input
+                    type="submit"
+                    name="login_button"
+                    value="Log In"
+                    class="cta cta_primary"
+                    id="login_button"
+                  />
+                </div>
+          </form> <!--End login_form-->
+
+          <div class="login_button_section">
+            
+            <p id="join_us">Do not have an account? <a href="create_account.html">Join us>></a></p> 
+          </div>
+          
+    </section>
+
     </main>
     <!--End main-->
 
@@ -118,7 +133,7 @@
       </div>
     </footer>
     <!--End footer-->
-    <script src="js/login.js"></script>
+    <script src="js/login_watcher.js"></script>
   </body>
   <!--End body-->
 </html>
