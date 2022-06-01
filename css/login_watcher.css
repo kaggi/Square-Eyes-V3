@@ -1,0 +1,12 @@
+.role_buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.role_button {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
