@@ -50,15 +50,6 @@
   color: black;
 }
 
-.errorMessage {
-  color: red;
-  padding: 10px;
-  text-align: center;
-}
-.errorMessage {
-  display: none;
-}
-
 .search_results_section {
   display: none;
 }

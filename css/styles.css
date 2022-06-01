@@ -27,3 +27,7 @@
 
 @import "./search.css";
 @import "./search_media.css";
+
+/*Create account page*/
+
+@import "./create_account.css";
