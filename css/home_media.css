@@ -51,4 +51,8 @@
     display: flex;
     flex-direction: column;
   }
+
+  .homepage_cta {
+    margin-top: 150px;
+  }
 }

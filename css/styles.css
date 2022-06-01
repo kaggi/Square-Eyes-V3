@@ -22,3 +22,8 @@
 
 @import "./about.css";
 @import "./about_media.css";
+
+/*Search page*/
+
+@import "./search.css";
+@import "./search_media.css";
