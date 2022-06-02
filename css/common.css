@@ -26,6 +26,10 @@ footer {
   font-family: "semplicita.medium", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.navigation_profile_picture {
+  border-radius: 50%;
+}
+
 a {
   text-decoration: none;
 }

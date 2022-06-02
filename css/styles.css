@@ -36,3 +36,8 @@
 /*Account created page*/
 
 @import "./account_created.css";
+
+/*Creator profile page*/
+
+@import "./creator.css";
+@import "./creator_media.css";
