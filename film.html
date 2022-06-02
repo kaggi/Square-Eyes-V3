@@ -80,7 +80,7 @@
                   <h3>Watch trailer</h3>
                   <p id="or">or</p>
                   <a
-                    href="payment_options.html"
+                    href="payment_summary.html"
                     class="cta cta_secondary"
                     id="pay"
                     >Pay Per View</a
@@ -128,8 +128,10 @@
           <!--End video_page_container_left-->
 
           <div class="video_page_container_right">
+
+            <h2>Last comments</h2>
             <section class="comments">
-              <h2>Last comments</h2>
+              
 
               <div class="watcher_comment_box">
                 <p id="watcher_screenname">By: Watcher1</p>
@@ -157,12 +159,18 @@
                 </p>
               </div>
 
-              <section class="add_comment">
+            </section>
+            <!--End comments-->
+
+              <form class="add_comment">
                 <h3>Add comment</h3>
                 <textarea
                   name="watcher_comment_field"
                   id="add_comment_field"
                 ></textarea>
+                <div class="errorMessage" id="screennameError">
+                  Must be at least four charachters
+                </div>
                 <div id="add_comment_button_div">
                   <input
                     type="submit"
@@ -170,10 +178,9 @@
                     value="Submit"
                   />
                 </div>
-              </section>
+              </form>
               <!--End add_comment-->
-            </section>
-            <!--End comments-->
+            
           </div>
           <!--End video_page_container_right-->
         </div>

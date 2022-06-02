@@ -10,6 +10,16 @@
     width: 500px;
     height: 100px;
   }
+  .watcher_comment_box {
+    background-color: white;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+    width: 500px;
+  }
 }
 
 @media only screen and (min-device-width: 900px) {
@@ -19,7 +29,7 @@
   .video_page_container {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 30px;
   }
 
   .video_page_container_left {
@@ -33,7 +43,7 @@
   .video_and_about {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 30px;
   }
 
   .video_section {
@@ -51,13 +61,10 @@
   }
 
   .watcher_comment_box {
-    background-color: white;
-    border: 1px solid black;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 10px;
-    font-size: 17px;
-    font-family: sans-serif;
-    max-width: 800px;
+    width: 450px;
+  }
+  
+  #add_comment_field {
+    width: 450px;
   }
 }
