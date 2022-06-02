@@ -1,0 +1,34 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.film_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+}
+
+#or {
+  text-align: center;
+}
+
+.trailer_or_pay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add_comment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
