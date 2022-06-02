@@ -41,3 +41,8 @@
 
 @import "./creator.css";
 @import "./creator_media.css";
+
+/*Creator public profile*/
+
+@import "./creator_public.css";
+@import "./creator_public_media.css";
