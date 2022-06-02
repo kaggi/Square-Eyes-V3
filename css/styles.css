@@ -62,3 +62,6 @@
 
 @import "./film.css";
 @import "./film_media.css";
+
+/*Payment summary*/
+@import "./payment_summary.css";
