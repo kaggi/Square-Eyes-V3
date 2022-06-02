@@ -37,6 +37,12 @@
 
 @import "./account_created.css";
 
+/*Login page*/
+@import "./login.css";
+@import "./login_media.css";
+@import "./login_watcher.css";
+@import "./login_watcher_media.css";
+
 /*Creator profile page*/
 
 @import "./creator.css";
