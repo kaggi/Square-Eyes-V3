@@ -46,3 +46,8 @@
 
 @import "./creator_public.css";
 @import "./creator_public_media.css";
+
+/*Watcher account page*/
+
+@import "./watcher.css";
+@import "./watcher_media.css";
