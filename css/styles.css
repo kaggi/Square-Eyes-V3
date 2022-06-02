@@ -51,3 +51,8 @@
 
 @import "./watcher.css";
 @import "./watcher_media.css";
+
+/*Film page*/
+
+@import "./film.css";
+@import "./film_media.css";
