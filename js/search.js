@@ -37,4 +37,9 @@ function testLength(value, testValue) {
   }
 }
 
+function showResults(event) {
+  search_results_section.style.display = "flex";
+  search_results_section.style.flexDirection = "column";
+}
+
 button.addEventListener("click", checkSearchField);

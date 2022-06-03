@@ -1,0 +1,19 @@
+.formField {
+  margin-bottom: 15px;
+}
+select {
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+input {
+  padding: 5px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.payment_button_section {
+  text-align: center;
+}

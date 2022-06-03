@@ -54,11 +54,11 @@
 
       <div class="navigation_login_icon">
         <a href="watcher_account.html">
-            <img
+          <img
             src="images/watcher_acc_picture_small.jpg"
             alt="Profile picture"
             class="navigation_profile_picture"
-            />
+          />
         </a>
       </div>
     </nav>
@@ -68,72 +68,66 @@
     <main>
       <h1>Pay with credit card</h1>
       <form class="credit_card_form">
-          <div class="formField" id="cardholder_name">
-              <label>Owner</label>
-              <input type="text" name="ownerName" id="owner_name_input" />
-              <div class="errorMessage" id="ownerNameError">
-                  Can not be empty
-              </div>              
-          </div>
+        <div class="formField" id="cardholder_name">
+          <label>Owner</label>
+          <input type="text" name="ownerName" id="owner_name_input" />
+          <div class="errorMessage" id="ownerNameError">Can not be empty</div>
+        </div>
 
-          <div class="formField" id="cvv">
-              <label>CVV</label>
-              <input type="text" name="cvv" id="cvv_input" />
-              <div class="errorMessage" id="cvvError">
-                  Must be 3 or 4 digits
-              </div>              
-          </div>
+        <div class="formField" id="cvv">
+          <label>CVV</label>
+          <input type="text" name="cvv" id="cvv_input" />
+          <div class="errorMessage" id="cvvError">Must be 3 or 4 digits</div>
+        </div>
 
-          <div class="cardNumberField" id="card_number">
-              <label>Card Number</label>
-              <input type="text" name="card_number" id="card_number_input" />
-              <div class="errorMessage" id="cardNumberError">
-                  Must be between 13 and 19 digits
-              </div>
+        <div class="formField" id="card_number">
+          <label>Card Number</label>
+          <input type="text" name="card_number" id="card_number_input" />
+          <div class="errorMessage" id="cardNumberError">
+            Must be between 13 and 19 digits
           </div>
+        </div>
 
-          <div class="expirationDateField" id="expiration_date">
-              <label>Expiration Date</label>
-              <select name="month">
-                  <option value="1">January</option>
-                  <option value="2">February</option>
-                  <option value="3">March</option>
-                  <option value="4">April</option>
-                  <option value="5">May</option>
-                  <option value="6">June</option>
-                  <option value="7">July</option>
-                  <option value="8">August</option>
-                  <option value="9">September</option>
-                  <option value="10">October</option>
-                  <option value="11">November</option>
-                  <option value="12">December</option>
-              </select>
-              <select name="year">
-                  <option value="22">2022</option>
-                  <option value="23">2023</option>
-                  <option value="24">2024</option>
-                  <option value="25">2025</option>
-                  <option value="26">2026</option>
-                  <option value="27">2027</option>
-                  <option value="28">2028</option>
-                  <option value="29">2029</option>
-                  <option value="30">2030</option>
-                  <option value="31">2031</option>
-                  <option value="32">2032</option>
-              </select>
-              
-          </div>
+        <div class="formField" id="expiration_date">
+          <label>Expiration Date</label>
+          <select name="month">
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+          </select>
+          <select name="year">
+            <option value="22">2022</option>
+            <option value="23">2023</option>
+            <option value="24">2024</option>
+            <option value="25">2025</option>
+            <option value="26">2026</option>
+            <option value="27">2027</option>
+            <option value="28">2028</option>
+            <option value="29">2029</option>
+            <option value="30">2030</option>
+            <option value="31">2031</option>
+            <option value="32">2032</option>
+          </select>
+        </div>
 
-          <div class="payment_button_section">
-            <input
-              type="submit"
-              name="payment_button"
-              value="Pay"
-              class="cta cta_primary"
-              id="payment_button"
-            />
-          </div>
-
+        <div class="payment_button_section">
+          <input
+            type="submit"
+            name="payment_button"
+            value="Pay"
+            class="cta cta_primary"
+            id="payment_button"
+          />
+        </div>
       </form>
     </main>
     <!--End main-->

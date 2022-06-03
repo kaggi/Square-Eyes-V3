@@ -51,8 +51,7 @@ h3 {
 }
 
 #add_comment_button_div {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  text-align: center;
 }
 
 #add_comment_field {

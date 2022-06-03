@@ -65,3 +65,13 @@
 
 /*Payment summary*/
 @import "./payment_summary.css";
+
+/*Payment page*/
+@import "./payment.css";
+
+/*Payment success*/
+@import "./payment_success.css";
+
+/*Contact page*/
+
+@import "./contact.css";
