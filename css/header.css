@@ -56,9 +56,6 @@ nav li {
 .navigation_links a {
   color: var(--sqe_nav_link_color);
   font-size: 1.8em;
-  padding: 15px;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 
 .current_page {
