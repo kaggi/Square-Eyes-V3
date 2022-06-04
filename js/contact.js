@@ -1,3 +1,7 @@
+let contactLink = document.querySelector("#contact_link");
+contactLink.classList.add("current_page");
+
+
 const form = document.querySelector(".contactForm");
 
 const email = document.querySelector("#email");
