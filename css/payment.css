@@ -6,8 +6,25 @@ select {
   padding: 5px;
 }
 
+.credit_card_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+}
+
 input {
   padding: 5px;
+  width: auto;
+  
+}
+
+select {
+  max-width: 150px;
 }
 
 label {

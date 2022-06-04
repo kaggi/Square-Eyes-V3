@@ -68,6 +68,7 @@
 
 /*Payment page*/
 @import "./payment.css";
+@import "./payment_media.css";
 
 /*Payment success*/
 @import "./payment_success.css";
